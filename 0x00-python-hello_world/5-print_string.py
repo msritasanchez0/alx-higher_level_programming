@@ -1,8 +1,3 @@
 #!/usr/bin/python3
-def main():
-    str = "Holberton School"
-    print(3 * str)
-    print(str[:9])
-
-if __name__ == "__main__":
-    main()
+str = "Holberton School"
+print(f"{3 * str}\n{str[:9]}")
